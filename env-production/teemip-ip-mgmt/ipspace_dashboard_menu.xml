@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <layout>DashboardLayoutOneCol</layout>
+  <title/>
+  <cells xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <cell id="teemip-100">
+      <rank>1</rank>
+      <dashlets>
+        <dashlet id="teemip-101" xsi:type="DashletHeaderStatic">
+          <rank>1</rank>
+          <title>Menu:IPSpace:IPv4Objects</title>
+          <icon>teemip-ip-mgmt/images/ipobject.png</icon>
+        </dashlet>
+        <dashlet id="teemip-111" xsi:type="DashletBadge">
+          <rank>2</rank>
+          <class>IPv4Block</class>
+        </dashlet>
+        <dashlet id="teemip-112" xsi:type="DashletBadge">
+          <rank>3</rank>
+          <class>IPv4Subnet</class>
+        </dashlet>
+        <dashlet id="teemip-113" xsi:type="DashletBadge">
+          <rank>4</rank>
+          <class>IPv4Range</class>
+        </dashlet>
+        <dashlet id="teemip-114" xsi:type="DashletBadge">
+          <rank>5</rank>
+          <class>IPv4Address</class>
+        </dashlet>
+      </dashlets>
+    </cell>
+    <cell id="teemip-300">
+      <rank>3</rank>
+      <dashlets>
+        <dashlet id="teemip-301" xsi:type="DashletHeaderStatic">
+          <rank>1</rank>
+          <title>Menu:IPSpace:Options</title>
+          <icon>teemip-ip-mgmt/images/ipconfig.png</icon>
+        </dashlet>
+        <dashlet id="teemip-311" xsi:type="DashletBadge">
+          <rank>2</rank>
+          <class>IPConfig</class>
+        </dashlet>
+        <dashlet id="teemip-312" xsi:type="DashletBadge">
+          <rank>3</rank>
+          <class>IPRangeUsage</class>
+        </dashlet>
+        <dashlet id="teemip-313" xsi:type="DashletBadge">
+          <rank>4</rank>
+          <class>IPUsage</class>
+        </dashlet>
+      </dashlets>
+    </cell>
+    <cell id="teemip-200" _altered_in="teemip-ipv6-mgmt">
+      <rank>1</rank>
+      <dashlets>
+        <dashlet id="teemip-201" xsi:type="DashletHeaderStatic" _delta="define" _altered_in="teemip-ipv6-mgmt">
+          <rank>1</rank>
+          <title>Menu:IPSpace:IPv6Objects</title>
+          <icon>teemip-ipv6-mgmt/images/ipv6object.png</icon>
+        </dashlet>
+        <dashlet id="teemip-211" xsi:type="DashletBadge" _delta="define" _altered_in="teemip-ipv6-mgmt">
+          <rank>2</rank>
+          <class>IPv6Block</class>
+        </dashlet>
+        <dashlet id="teemip-212" xsi:type="DashletBadge" _delta="define" _altered_in="teemip-ipv6-mgmt">
+          <rank>3</rank>
+          <class>IPv6Subnet</class>
+        </dashlet>
+        <dashlet id="teemip-213" xsi:type="DashletBadge" _delta="define" _altered_in="teemip-ipv6-mgmt">
+          <rank>4</rank>
+          <class>IPv6Range</class>
+        </dashlet>
+        <dashlet id="teemip-214" xsi:type="DashletBadge" _delta="define" _altered_in="teemip-ipv6-mgmt">
+          <rank>5</rank>
+          <class>IPv6Address</class>
+        </dashlet>
+      </dashlets>
+    </cell>
+  </cells>
+</dashboard>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Set>
+<Software alias="Software" id="2">
+<name>MySql</name>
+<vendor>Oracle</vendor>
+<version>5.3</version>
+<cpe>cpe:/a:oracle:mysql:5.3</cpe>
+<type>DBServer</type>
+</Software>
+<Software alias="Software" id="1">
+<name>Oracle DB engine</name>
+<vendor>Oracle</vendor>
+<version>11i</version>
+<cpe>cpe:/a:oracle:oracledb:11</cpe>
+<type>DBServer</type>
+</Software>
+</Set>
